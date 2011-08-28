@@ -1,6 +1,27 @@
+@font-face {
+  font-family: "MegalopolisExtra";
+  src: url('MEgalopolisExtra.otf');
+}
+
+h1 {
+  font-family: "MegalopolisExtra";
+  font-size: 72px;
+  text-align: center;
+}
+
 .centered {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+img {
+  margin-top: 50px;
+}
+
+img:hover {
+  -webkit-transform: rotate(5deg);
+  -transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
 }
 
