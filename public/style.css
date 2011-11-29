@@ -17,11 +17,14 @@ h1 {
 
 img {
   margin-top: 50px;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
 }
 
 img:hover {
-  -webkit-transform: rotate(5deg);
-  -transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
+  -transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
 }
 
