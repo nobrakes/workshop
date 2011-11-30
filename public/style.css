@@ -21,14 +21,14 @@ h1 {
 
 img {
   margin-top: 50px;
-  transition: all 1500ms ease;
-  -webkit-transition: all 1500ms ease;
-  -moz-transition: all 1500ms ease;
+  transition: all 1000ms ease;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
 }
 
 img:hover {
-  -transform: rotate(50deg);
-  -webkit-transform: rotate(50deg);
-  -moz-transform: rotate(50deg);
+  -transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
 }
 
